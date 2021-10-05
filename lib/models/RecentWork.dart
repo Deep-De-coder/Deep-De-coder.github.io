@@ -17,18 +17,18 @@ List<RecentWork> recentWorks = [
     id: 2,
     title: "Edu-tech ",
     category: "App Developent",
-    image: "assets/images/work_2.png",
+    image: "assets/images/EduTech_logo.png",
   ),
   RecentWork(
     id: 3,
     title: "CaptainCool  ",
     category: "Web Developent",
-    image: "assets/images/work_3.png",
+    image: "assets/images/CapCool_logo.png",
   ),
   RecentWork(
     id: 4,
     title: "Portfolio ",
     category: "Flutter Project",
-    image: "assets/images/work_4.png",
+    image: "assets/images/work_2.png",
   ),
 ];

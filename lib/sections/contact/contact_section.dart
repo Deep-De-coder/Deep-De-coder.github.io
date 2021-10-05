@@ -59,22 +59,30 @@ class ContactBox extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               SocalCard(
-                color: Color(0xFFD9FFFC),
+                color: Color(0xFFC6C6C6),
                 iconSrc: "assets/images/Github.png",
                 name: 'GitHub',
-                press: () {},
+                press: () {
+                  const url = 'https://github.com/Deep-De-coder';
+                },
               ),
               SocalCard(
-                color: Color(0xFFE4FFC7),
-                iconSrc: "assets/images/whatsapp.png",
+                color: Color(0xFF2867B2),
+                iconSrc: "assets/images/Linkedin_logo.png",
                 name: 'LinkedIn',
-                press: () {},
+                press: () {
+                  const url =
+                      'https://www.linkedin.com/in/deep-shahane-906b041b0/';
+                },
               ),
               SocalCard(
-                color: Color(0xFFE8F0F9),
-                iconSrc: "assets/images/messanger.png",
+                color: Color(0xFFEEEEEE),
+                iconSrc: "assets/images/Gmail_logo.png",
                 name: 'Gmail',
-                press: () {},
+                press: () {
+                  const url =
+                      'https://www.linkedin.com/in/deep-shahane-906b041b0/';
+                },
               ),
             ],
           ),
