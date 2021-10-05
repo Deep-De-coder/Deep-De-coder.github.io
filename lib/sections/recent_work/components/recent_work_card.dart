@@ -59,7 +59,7 @@ class _RecentWorkCardState extends State<RecentWorkCard> {
                     ),
                     SizedBox(height: kDefaultPadding),
                     Text(
-                      "View Details",
+                      "",
                       style: TextStyle(decoration: TextDecoration.underline),
                     )
                   ],

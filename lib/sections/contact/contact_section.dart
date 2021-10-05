@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:web_app/components/default_button.dart';
 import 'package:web_app/components/section_title.dart';
 import 'package:web_app/constants.dart';
-
+import 'package:url_launcher/url_launcher.dart';
 import 'components/socal_card.dart';
 
 class ContactSection extends StatelessWidget {
@@ -63,7 +63,7 @@ class ContactBox extends StatelessWidget {
                 iconSrc: "assets/images/Github.png",
                 name: 'GitHub',
                 press: () {
-                  const url = 'https://github.com/Deep-De-coder';
+                  launch("https://github.com/Deep-De-coder");
                 },
               ),
               SocalCard(
@@ -71,8 +71,7 @@ class ContactBox extends StatelessWidget {
                 iconSrc: "assets/images/Linkedin_logo.png",
                 name: 'LinkedIn',
                 press: () {
-                  const url =
-                      'https://www.linkedin.com/in/deep-shahane-906b041b0/';
+                  launch("https://www.linkedin.com/in/deep-shahane-906b041b0/");
                 },
               ),
               SocalCard(
@@ -80,8 +79,7 @@ class ContactBox extends StatelessWidget {
                 iconSrc: "assets/images/Gmail_logo.png",
                 name: 'Gmail',
                 press: () {
-                  const url =
-                      'https://www.linkedin.com/in/deep-shahane-906b041b0/';
+                  launch("mailto:esotericdeep@gmail.com");
                 },
               ),
             ],

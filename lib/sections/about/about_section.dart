@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:url_launcher/url_launcher.dart';
 import 'package:web_app/components/default_button.dart';
 import 'package:web_app/components/my_outline_button.dart';
 import 'package:web_app/constants.dart';
@@ -47,9 +48,10 @@ class AboutSection extends StatelessWidget {
               SizedBox(width: kDefaultPadding * 1.5),
               DefaultButton(
                 imageSrc: "assets/images/download.png",
-                text: "Open CV",
+                text: "Open Resume",
                 press: () {
-                  html.window.open("<assets/images/Deep_Resume.pdf>", ".pdf");
+                  launch(
+                      "https://drive.google.com/drive/u/0/folders/1r9_UB_Ife8c_WCtohzpEyXRqiTAUSoJd");
                 },
               ),
             ],

@@ -15,7 +15,7 @@ List<Feedback> feedbacks = [
     name: "Hack the Space",
     review:
         "Hack the Space.\n Our team received Special Mention. It was a national level hackathon conducted by GDSC's for students, we created education app here containing quiz, chatting and other functions also ",
-    userPic: "assets/images/people.png",
+    userPic: "assets/images/hackathon.png",
     color: Color(0xFFFFF3DD),
   ),
   Feedback(
@@ -23,7 +23,7 @@ List<Feedback> feedbacks = [
     name: "Github and IncubateIND",
     review:
         "Github and IncubateIND \n Our team created an app for education purpose. Main purpose was to make online education easy and attractive.we received Special Mention",
-    userPic: "assets/images/people.png",
+    userPic: "assets/images/Hackathon_logo.png",
     color: Color(0xFFD9FFFC),
   ),
   Feedback(
@@ -31,7 +31,7 @@ List<Feedback> feedbacks = [
     name: "V-hackathon",
     review:
         "V-hackathon \n It was my first hackathon where I helpd the team to create an app for our college students. I worked on UI design. We received Special Mention. ",
-    userPic: "assets/images/people.png",
+    userPic: "assets/images/Hack.png",
     color: Color(0xFFFFE0E0),
   ),
 ];
