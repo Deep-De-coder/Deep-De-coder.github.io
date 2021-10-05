@@ -11,7 +11,7 @@ List<RecentWork> recentWorks = [
     id: 1,
     title: "Updating GEN-Z ",
     category: "Web Development",
-    image: "assets/images/work_1.png",
+    image: "assets/images/GenZ_logo.png",
   ),
   RecentWork(
     id: 2,
@@ -21,8 +21,8 @@ List<RecentWork> recentWorks = [
   ),
   RecentWork(
     id: 3,
-    title: "V-hack ",
-    category: "App Developent",
+    title: "CaptainCool  ",
+    category: "Web Developent",
     image: "assets/images/work_3.png",
   ),
   RecentWork(
